@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  /* 'scroll-behavior: smooth' makes transition between sections smooth  */
+  scroll-behavior: smooth;
+  font-family: "Poppins";
+}
+
+/* Selecting 'html' and using ':root' is same */
+:root {
+  /* '--background' and '--second-background' are variables here   */
+  --background: rgb(24, 24, 24);
+  --second-background: rgb(21, 21, 21);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+nav {
+  /* 'position: fixed' here because navigation bar should stay at top while scrolling.  */
+  position: fixed;
+  /* Since nav bar will be fixed at top so 'top: 0' */
+  top: 0;
+  /* 'width: 100%' as nav bar will cover entire breadth of top area */
+  width: 100%;
+}
