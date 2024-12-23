@@ -251,6 +251,7 @@ section {
 .box img {
   min-width: 25px;
   border-radius: 0.5em;
+  border: 1px solid black;
 }
 #contact {
   background-color: var(--second-background);
