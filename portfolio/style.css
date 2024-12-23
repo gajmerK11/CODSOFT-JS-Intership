@@ -373,6 +373,47 @@ footer {
   #home img {
     width: 24vw;
   }
+  #about {
+    flex-direction: column;
+  }
+  #about img {
+    width: 32vw;
+  }
+  #about h1 {
+    font-size: 3em;
+  }
+  #about ul {
+    font-size: 1em;
+  }
 }
 @media (max-width: 768px) {
+  #home h1 {
+    font-size: 2.5em;
+  }
+  #home h3 {
+    font-size: 1.5em;
+  }
+  #home img {
+    width: 32vw;
+  }
+  #about .skills {
+    gap: 3em;
+  }
+  #services .header {
+    font-size: 3em;
+  }
+  #contact .header {
+    font-size: 3em;
+  }
+  #contact .input-box span {
+    font-size: 1.2em;
+  }
+  .input-box input {
+    padding: 0.5em 1em;
+  }
+  footer {
+    flex-direction: column;
+    gap: 5em;
+    align-items: baseline;
+  }
 }
